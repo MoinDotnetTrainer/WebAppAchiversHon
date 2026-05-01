@@ -10,7 +10,7 @@ namespace DAL.Irepo
     public interface ITasks
     {
         Task AddTasks(Tasks data);
-        Task<List<Task>> GetTasks();
+        Task<List<Tasks>> GetTasks();
         Task<Tasks> GetTaskbyid(int TaskID);
         Task EditTask(Tasks data);
         Task DeleteTask(int TaskID);
