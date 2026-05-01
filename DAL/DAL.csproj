@@ -16,7 +16,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Irepo\" />
     <Folder Include="Repo\" />
   </ItemGroup>
 
