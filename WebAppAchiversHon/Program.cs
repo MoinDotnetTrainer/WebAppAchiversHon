@@ -19,6 +19,9 @@ namespace WebAppAchiversHon
             });
 
 
+            builder.Services.AddScoped<DAL.Irepo.IUsers, DAL.Repo.UsersBl>();
+            builder.Services.AddScoped<DAL.Irepo.ITasks, DAL.Repo.TasksBl>();
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
